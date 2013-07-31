@@ -1,0 +1,42 @@
+{
+	"templatesFolder": "templates",
+	"defaults": {
+		"modelsFolder": "models",
+		"controllersFolder": "controllers",
+		"viewsFolder": "views"
+	},		
+	"templates": {
+		"simpleproject": [
+			"lib/",
+			"test/",
+			"Gruntfile.js",
+			"package.json"
+		]
+	},
+	"partials": {
+		"model": [
+			{
+				"file":"lib/<%=modelsFolder%>/<%=modelName%>.js>", 
+				"template":"model-template.js"
+			}
+		],
+		"controller": [
+			{
+				"file":"lib/<%=controllersFolder%>/<%=controllerName%>.js>",
+			 	"template":"controller-template.js"
+			}
+		],
+		"view": [
+			{
+				"file":"lib/<%=viewsFolder%>/<%=viewName%>.js>",
+				"template":"view-template.js"
+			}
+		],
+		"test": [
+			{
+				"file":"test/<%=testName%>-test.js",
+				"template":"test-template.js"
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "scaffy",
+  "version": "0.0.1",
+  "description": "Scaffolding made simple.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "scaffolding"
+  ],
+  "author": "matix",
+  "license": "BSD",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "commander": "~2.0.0",
+    "prompt": "~0.2.11",
+    "colors": "~0.6.0-1",
+    "underscore": "~1.5.1"
+  }
+}
