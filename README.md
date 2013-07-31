@@ -1,0 +1,4 @@
+scaffy
+======
+
+Scaffolding made easy.
