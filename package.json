@@ -16,6 +16,7 @@
     "commander": "~2.0.0",
     "prompt": "~0.2.11",
     "colors": "~0.6.0-1",
-    "underscore": "~1.5.1"
+    "underscore": "~1.5.1",
+    "shelljs": "~0.2.1"
   }
 }
