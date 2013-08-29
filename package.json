@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Scaffolding made simple.",
   "main": "lib/index.js",
+  "bin": {
+    "scaffy": "./bin/scaffy"
+  },
   "scripts": {
     "test": "grunt test"
   },
