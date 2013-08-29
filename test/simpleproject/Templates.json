@@ -16,19 +16,19 @@
 	"partials": {
 		"model": [
 			{
-				"file":"lib/<%=modelsFolder%>/<%=modelName%>.js>", 
+				"file":"lib/<%=modelsFolder%>/<%=modelName%>.js", 
 				"template":"model-template.js"
 			}
 		],
 		"controller": [
 			{
-				"file":"lib/<%=controllersFolder%>/<%=controllerName%>.js>",
+				"file":"lib/<%=controllersFolder%>/<%=controllerName%>.js",
 			 	"template":"controller-template.js"
 			}
 		],
 		"view": [
 			{
-				"file":"lib/<%=viewsFolder%>/<%=viewName%>.js>",
+				"file":"lib/<%=viewsFolder%>/<%=viewName%>.js",
 				"template":"view-template.js"
 			}
 		],
