@@ -1,6 +1,6 @@
 {
 	"templatesFolder": "templates",
-	"defaults": {
+	"configure": {
 		"modelsFolder": "models",
 		"controllersFolder": "controllers",
 		"viewsFolder": "views"
@@ -17,7 +17,7 @@
 		"model": {
 			"configure": {
 				"modelName": {
-					"name": "model name"
+					"prompt name": "model name"
 				}
 			},
 			"files":[
