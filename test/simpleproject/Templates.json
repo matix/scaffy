@@ -14,12 +14,19 @@
 		]
 	},
 	"partials": {
-		"model": [
-			{
-				"file":"lib/<%=modelsFolder%>/<%=modelName%>.js", 
-				"template":"model-template.js"
-			}
-		],
+		"model": {
+			"configure": {
+				"modelName": {
+					"name": "model name"
+				}
+			},
+			"files":[
+				{
+					"file":"lib/<%=modelsFolder%>/<%=modelName%>.js", 
+					"template":"model-template.js"
+				}
+			]
+		},
 		"controller": [
 			{
 				"file":"lib/<%=controllersFolder%>/<%=controllerName%>.js",
